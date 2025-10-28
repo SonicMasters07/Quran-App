@@ -1,12 +1,13 @@
 ---
 
+🌙 Quran App
+
 <p align="center">
   <img src="resources/images/ui/_preview/banner.png" alt="Quran App Banner" width="100%">
-</p><h1 align="center">🌙 Quran App</h1><p align="center">
-  A modern desktop Quran application built with <b>Python (PyQt5)</b> and the <b>AlQuran Cloud API</b>.
-  <br>
-  <i>Search any Surah:Ayah, view translations in Arabic, English, and Urdu, and listen to recitations — all in a beautifully designed, responsive interface.</i>
-</p>
+</p>A modern desktop Quran application built with Python (PyQt5) and the AlQuran Cloud API.
+Search any Surah:Ayah, view translations in Arabic, English, and Urdu, and listen to recitations — all in a beautifully designed, responsive interface.
+
+
 ---
 
 ✨ Features
@@ -19,7 +20,7 @@
 
 🪶 Modern design: Soft gradients, rounded widgets, and balanced spacing
 
-💾 Lightweight & Portable: No global VLC installation required
+💾 Lightweight & Portable: Works without global VLC installation
 
 🧱 Packaged EXE: Runs as a standalone app built with PyInstaller
 
@@ -29,55 +30,44 @@
 
 🧠 Technologies Used
 
-Component	Description
+Component	Purpose
 
 Python	Core programming language
-PyQt5	GUI framework for the interface
-VLC (python-vlc)	Audio playback library
-Requests	For API calls to alquran.cloud
-PyInstaller	Creates standalone .exe builds
+PyQt5	GUI framework
+VLC (python-vlc)	Audio playback
+Requests	API communication (alquran.cloud)
+PyInstaller	Executable packaging
 
 
 
 ---
 
-🖼️ Preview
+🖼️ UI Preview
 
 <p align="center">
-  <img src="resources/images/ui/_preview/ui.png" alt="App Preview" width="80%">
-</p>> Designed with a minimal purple-white aesthetic, rounded widgets, and balanced spacing for readability.
+  <img src="resources/images/ui/_preview/ui.png" alt="App UI Preview" width="80%">
+</p>> Minimal purple-white design with balanced readability and soft styling.
 
 
 
 
 ---
 
-⚙️ Setup Instructions
+⚙️ Setup for Developers
 
-🐍 For Developers
-
-1. Clone the repository:
-
+# Clone the repository
 git clone https://github.com/<yourusername>/QuranApp.git
 cd QuranApp
 
-
-2. Create and activate a virtual environment:
-
+# Create and activate virtual environment
 python -m venv venv
-venv\Scripts\activate
+venv\Scripts\activate  # For Windows
 
-
-3. Install dependencies:
-
+# Install dependencies
 pip install -r requirements.txt
 
-
-4. Run the app:
-
+# Run the app
 python main.py
-
-
 
 
 ---
@@ -86,11 +76,14 @@ python main.py
 
 If you downloaded the .exe release:
 
-Simply run QuranApp.exe
+1. Simply run QuranApp.exe
 
-Keep the VLC_README.txt file beside the .exe
 
-✅ No need to install VLC separately
+2. Keep the VLC_README.txt file beside the .exe
+
+
+3. ✅ No need to install VLC separately
+
 
 
 
@@ -98,11 +91,9 @@ Keep the VLC_README.txt file beside the .exe
 
 🧰 Build .exe (Optional)
 
-To create a standalone Windows executable:
-
 pyinstaller --noconsole --onefile --icon=quran.ico main.py
 
-Then ensure the VLC_README.txt file remains beside your generated .exe inside the dist/ folder.
+After building, ensure the VLC_README.txt file stays beside your generated .exe in the dist/ folder.
 
 
 ---
@@ -110,16 +101,13 @@ Then ensure the VLC_README.txt file remains beside your generated .exe inside th
 📦 Requirements
 
 PyQt5
-
 requests
-
 python-vlc
-
 
 
 ---
 
-📂 Folder Structure
+📂 Project Structure
 
 Quran-App/
 │
@@ -143,15 +131,6 @@ Quran-App/
 
 ---
 
-👨‍💻 Developer
-
-Developed by: Muhammad Hussnain Faraz
-📍 BS Computer Science — GCUF Samundri Sub-Campus, Pakistan
-💜 Passionate about Islamic software, AI, and open-source development.
-
-
----
-
 🕋 Credits
 
 Quran Data API: alquran.cloud
@@ -164,10 +143,25 @@ Purpose: Built sincerely for the benefit of the Ummah — Fi Sabeelillah.
 
 ---
 
+👨‍💻 Developer
+
+Muhammad Hussnain Faraz
+📍 BS Computer Science — GCUF Samundri Sub-Campus, Pakistan
+💜 Passionate about Islamic software, AI, and open-source development.
+
+
+---
+
 🧿 License
 
-This project is open-source under the MIT License.
-Feel free to fork, enhance, and share — for the sake of Allah (سُبْحَانَهُ وَتَعَالَى).
+Open-sourced under the MIT License.
+Use, modify, and share — for the sake of Allah (سُبْحَانَهُ وَتَعَالَى).
+
+
+---
+
+⭐ Support:
+If you find this project beneficial, give it a star ⭐ on GitHub — more Islamic software projects are on the way!
 
 
 ---
