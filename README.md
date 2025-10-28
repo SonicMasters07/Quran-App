@@ -6,11 +6,8 @@
 
 <h1 align="center">🌙 Quran App</h1>
 
-<p align="center">
-  A modern desktop Quran application built with <b>Python (PyQt5)</b> and the <b>AlQuran Cloud API</b>.
-  <br>
-  <i>Search any Surah:Ayah, view translations in Arabic, English, and Urdu, and listen to recitations — all in a beautifully designed, responsive interface.</i>
-</p>
+A modern desktop Quran application built with **Python (PyQt5)** and the **AlQuran Cloud API**.  
+Search any **Surah:Ayah**, view translations in **Arabic, English, and Urdu**, and listen to **recitations** — all in a beautifully designed, responsive interface.
 
 ---
 
@@ -51,14 +48,21 @@
 
 ### 🐍 For Developers
 
+**1. Clone the repository**
 ```bash
 git clone https://github.com/<yourusername>/QuranApp.git
 cd QuranApp
 
+2. Create and activate a virtual environment
+
 python -m venv venv
 venv\Scripts\activate
 
+3. Install dependencies
+
 pip install -r requirements.txt
+
+4. Run the app
 
 python main.py
 
@@ -80,6 +84,8 @@ Keep the VLC_README.txt file beside the .exe
 ---
 
 🧰 Build .exe (Optional)
+
+To create a standalone Windows executable:
 
 pyinstaller --noconsole --onefile --icon=quran.ico main.py
 
@@ -144,6 +150,5 @@ Purpose: Built sincerely for the benefit of the Ummah — Fi Sabeelillah.
 
 This project is open-source under the MIT License.
 Feel free to fork, enhance, and share — for the sake of Allah (سُبْحَانَهُ وَتَعَالَى).
-
 
 ---
