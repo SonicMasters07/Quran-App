@@ -80,6 +80,8 @@ python main.py
 
 If you downloaded the .exe release:
 
+Link for it: https://limewire.com/d/lBEx9#eTNr8NXttb
+
 Simply run QuranApp.exe
 
 Keep the VLC_README.txt file beside the .exe
