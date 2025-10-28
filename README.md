@@ -20,7 +20,7 @@
 - 🕌 **Multilingual display:** Arabic • English • Urdu
 - 🎧 **Audio playback:** Stream recitations when the “Audio” option is checked
 - 🪶 **Modern design:** Soft gradients, rounded widgets, and balanced spacing
-- 💾 **Lightweight & Portable:** Works even without installing VLC globally
+- 💾 **Lightweight & Portable:** No global VLC installation required
 - 🧱 **Packaged EXE:** Runs as a standalone app built with PyInstaller
 
 ---
@@ -40,7 +40,7 @@
 ## 🖼️ Preview
 
 <p align="center">
-  <img src="resources/images/ui_preview.png" alt="App Preview" width="80%">
+  <img src="resources/images/ui.png" alt="App Preview" width="80%">
 </p>
 
 > *Designed with a minimal purple-white aesthetic, rounded widgets, and balanced spacing for readability.*
@@ -82,7 +82,7 @@ If you downloaded the .exe release:
 
 Simply run QuranApp.exe
 
-Keep the VLC/ folder in the same directory
+Keep the VLC_README.txt file beside the .exe
 
 ✅ No need to install VLC separately
 
@@ -96,7 +96,7 @@ To create a standalone Windows executable:
 
 pyinstaller --noconsole --onefile --icon=quran.ico main.py
 
-Then copy your VLC/ folder beside the generated .exe inside the dist/ folder.
+Then ensure the VLC_README.txt file remains beside your generated .exe inside the dist/ folder.
 
 
 ---
@@ -119,19 +119,15 @@ Quran-App/
 ├── requirements.txt
 ├── quran.ico
 │
-├── VLC/
-│   ├── libvlc.dll
-│   ├── libvlccore.dll
-│   └── plugins/
+├── VLC_README.txt
 │
 ├── resources/
 │   └── images/
 │       ├── banner.png
-│       └── ui_preview.png
+│       └── ui.png
 │
 └── dist/
-    ├── QuranApp.exe
-    └── vlc/
+    └── QuranApp.exe
 
 
 ---
