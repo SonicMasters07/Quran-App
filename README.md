@@ -110,8 +110,8 @@ python-vlc
 
 ---
 
-📂 Folder Structure
-
+📂 **Folder Structure**
+```bash
 Quran-App/
 │
 ├── main.py
