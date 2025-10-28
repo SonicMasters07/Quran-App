@@ -131,7 +131,7 @@ Quran-App/
 └── dist/
     └── QuranApp.exe
 
-
+```
 ---
 
 👨‍💻 Developer
