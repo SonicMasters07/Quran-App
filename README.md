@@ -40,7 +40,7 @@
 ## 🖼️ Preview
 
 <p align="center">
-  <img src="resources/images/ui.png" alt="App Preview" width="80%">
+  <img src="resources/images/ui/_preview.png" alt="App Preview" width="80%">
 </p>
 
 > *Designed with a minimal purple-white aesthetic, rounded widgets, and balanced spacing for readability.*
