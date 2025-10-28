@@ -112,7 +112,7 @@ python-vlc
 
 📂 Folder Structure
 
-Quran-App/
+📁 Quran-App/
 │
 ├── main.py
 ├── README.md
