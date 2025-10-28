@@ -48,23 +48,27 @@ Search any **Surah:Ayah**, view translations in **Arabic, English, and Urdu**, a
 
 ### 🐍 For Developers
 
-**1. Clone the repository**
-```bash
-git clone https://github.com/<yourusername>/QuranApp.git
-cd QuranApp
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<yourusername>/QuranApp.git
+   cd QuranApp
 
 2. Create and activate a virtual environment
 
 python -m venv venv
 venv\Scripts\activate
 
+
 3. Install dependencies
 
 pip install -r requirements.txt
 
+
 4. Run the app
 
 python main.py
+
+
 
 
 ---
