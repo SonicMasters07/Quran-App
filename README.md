@@ -51,27 +51,16 @@
 
 ### 🐍 For Developers
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/<yourusername>/QuranApp.git
-   cd QuranApp
-
-2. Create and activate a virtual environment:
+```bash
+git clone https://github.com/<yourusername>/QuranApp.git
+cd QuranApp
 
 python -m venv venv
 venv\Scripts\activate
 
-
-3. Install dependencies:
-
 pip install -r requirements.txt
 
-
-4. Run the app:
-
 python main.py
-
-
 
 
 ---
@@ -92,8 +81,6 @@ Keep the VLC_README.txt file beside the .exe
 
 🧰 Build .exe (Optional)
 
-To create a standalone Windows executable:
-
 pyinstaller --noconsole --onefile --icon=quran.ico main.py
 
 Then ensure the VLC_README.txt file remains beside your generated .exe inside the dist/ folder.
@@ -110,15 +97,13 @@ python-vlc
 
 ---
 
-📂 Folder Structure
+📁 Folder Structure
 
-📁 Quran-App/
-│
+Quran-App/
 ├── main.py
 ├── README.md
 ├── requirements.txt
 ├── quran.ico
-│
 ├── VLC_README.txt
 │
 ├── resources/
