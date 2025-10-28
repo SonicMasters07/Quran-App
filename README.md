@@ -159,13 +159,3 @@ Feel free to fork, enhance, and share — for the sake of Allah (سُبْحَا�
 
 
 ---
-
----
-
-✅ **What’s fixed:**
-- Folder structure code block now closes *exactly* where it should — before that accidental `cd`.
-- No layout changes.  
-- No formatting damage.  
-- Clean indentation and balanced sections like your *Task Manager* reference.
-
-You can copy-paste this version directly into your `README.md` — it’ll render perfectly.
