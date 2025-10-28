@@ -1,0 +1,52 @@
+# 🧠 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.pot
+*.pyc
+
+# 🧱 Build / Distribution
+build/
+dist/
+*.spec
+
+# 🪟 PyInstaller Output
+*.exe
+*.dll
+*.manifest
+
+# 🧩 Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# ⚙️ System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 💡 IDE Settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 📦 Other Folders
+vlc/plugins/cache/
+vlc/plugins/plugins.dat
+
+# 📁 Temporary
+*.tmp
+*.bak
+*.old
+
+# 📸 Images/Resources Cache
+resources/images/*.bak
+resources/images/*.tmp
