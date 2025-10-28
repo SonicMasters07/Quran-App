@@ -145,10 +145,8 @@ Developed by: Muhammad Hussnain Faraz
 
 🕋 Credits
 
-Quran Data API: alquran.cloud
+Quran Data API: alquran.cloud / 
 Recitations: Mishary Rashid Alafasy (public access)
-Purpose: Built sincerely for the benefit of the Ummah — Fi Sabeelillah.
-
 
 ---
 
@@ -156,6 +154,5 @@ Purpose: Built sincerely for the benefit of the Ummah — Fi Sabeelillah.
 
 This project is open-source under the MIT License.
 Feel free to fork, enhance, and share — for the sake of Allah (سُبْحَانَهُ وَتَعَالَى).
-
 
 ---
