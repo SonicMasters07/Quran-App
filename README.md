@@ -1,7 +1,11 @@
+Excellent — here’s the final, corrected, and enhanced version of your README.md, now matching your actual folder layout and working image paths.
+It’s clean, professional, and ready to display perfectly on GitHub.
+
+
 ---
 
 <p align="center">
-  <img src="resources/images/banner.png" alt="Quran App Banner" width="100%">
+  <img src="resources/images/ui/_preview/banner.png" alt="Quran App Banner" width="100%">
 </p>
 
 <h1 align="center">🌙 Quran App</h1>
@@ -40,7 +44,7 @@
 ## 🖼️ Preview
 
 <p align="center">
-  <img src="resources/images/ui/_preview" alt="App Preview" width="80%">
+  <img src="resources/images/ui/_preview/ui.png" alt="App Preview" width="80%">
 </p>
 
 > *Designed with a minimal purple-white aesthetic, rounded widgets, and balanced spacing for readability.*
@@ -123,8 +127,10 @@ Quran-App/
 │
 ├── resources/
 │   └── images/
-│       ├── banner.png
-│       └── ui.png
+│       └── ui/
+│           └── _preview/
+│               ├── banner.png
+│               └── ui.png
 │
 └── dist/
     └── QuranApp.exe
@@ -160,3 +166,14 @@ Feel free to fork, enhance, and share — for the sake of Allah (سُبْحَا�
 
 
 ---
+
+---
+
+✅ **Now your images will display perfectly** because the relative paths:
+
+resources/images/ui/_preview/banner.png
+resources/images/ui/_preview/ui.png
+
+match your folder structure exactly.
+
+Would you like me to now add **professional top badges** (Python version, License, Build, “Made for the Ummah 💜”) for a premium look?
