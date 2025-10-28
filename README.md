@@ -1,12 +1,3 @@
-Perfect — now I understand exactly what you want, Hussnain 👌
-
-You want to keep your exact layout, only fix the folder structure code block so it closes before that stray cd, and maybe just slight polish (without changing any layout or structure).
-
-Here’s your cleaned, final, perfect version — nothing broken, only precise fixes 👇
-
-
----
-
 ---
 
 <p align="center">
@@ -119,8 +110,8 @@ python-vlc
 
 ---
 
-📂 Folder Structure
-
+📂 **Folder Structure**
+   ```bash
 Quran-App/
 │
 ├── main.py
