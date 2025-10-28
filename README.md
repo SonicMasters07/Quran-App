@@ -130,6 +130,7 @@ Quran-App/
 │
 └── dist/
     └── QuranApp.exe
+cd
 
 
 ---
