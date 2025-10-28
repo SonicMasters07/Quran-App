@@ -1,7 +1,3 @@
-Excellent — here’s the final, corrected, and enhanced version of your README.md, now matching your actual folder layout and working image paths.
-It’s clean, professional, and ready to display perfectly on GitHub.
-
-
 ---
 
 <p align="center">
@@ -166,14 +162,3 @@ Feel free to fork, enhance, and share — for the sake of Allah (سُبْحَا�
 
 
 ---
-
----
-
-✅ **Now your images will display perfectly** because the relative paths:
-
-resources/images/ui/_preview/banner.png
-resources/images/ui/_preview/ui.png
-
-match your folder structure exactly.
-
-Would you like me to now add **professional top badges** (Python version, License, Build, “Made for the Ummah 💜”) for a premium look?
