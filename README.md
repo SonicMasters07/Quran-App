@@ -164,8 +164,3 @@ Feel free to fork, enhance, and share — for the sake of Allah (سُبْحَا�
 
 
 ---
-
----
-
-Would you like me to add **GitHub badges** (like Python version, License, Last Commit, or “Made with ❤️ for the Ummah”) at the top too?  
-They make it look even more professional on your profile.
