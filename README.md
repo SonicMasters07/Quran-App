@@ -6,8 +6,11 @@
 
 <h1 align="center">🌙 Quran App</h1>
 
-A modern desktop Quran application built with **Python (PyQt5)** and the **AlQuran Cloud API**.  
-Search any **Surah:Ayah**, view translations in **Arabic, English, and Urdu**, and listen to **recitations** — all in a beautifully designed, responsive interface.
+<p align="center">
+  A modern desktop Quran application built with <b>Python (PyQt5)</b> and the <b>AlQuran Cloud API</b>.
+  <br>
+  <i>Search any Surah:Ayah, view translations in Arabic, English, and Urdu, and listen to recitations — all in a beautifully designed, responsive interface.</i>
+</p>
 
 ---
 
@@ -48,23 +51,23 @@ Search any **Surah:Ayah**, view translations in **Arabic, English, and Urdu**, a
 
 ### 🐍 For Developers
 
-1. **Clone the repository**
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/<yourusername>/QuranApp.git
    cd QuranApp
 
-2. Create and activate a virtual environment
+2. Create and activate a virtual environment:
 
 python -m venv venv
 venv\Scripts\activate
 
 
-3. Install dependencies
+3. Install dependencies:
 
 pip install -r requirements.txt
 
 
-4. Run the app
+4. Run the app:
 
 python main.py
 
@@ -101,8 +104,11 @@ Then ensure the VLC_README.txt file remains beside your generated .exe inside th
 📦 Requirements
 
 PyQt5
+
 requests
+
 python-vlc
+
 
 
 ---
@@ -114,6 +120,7 @@ Quran-App/
 ├── README.md
 ├── requirements.txt
 ├── quran.ico
+│
 ├── VLC_README.txt
 │
 ├── resources/
